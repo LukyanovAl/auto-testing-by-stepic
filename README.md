@@ -1,1 +1,1 @@
-# auto-testing-by-stepic
+# Welcome to auto-testing-by-stepic homework
