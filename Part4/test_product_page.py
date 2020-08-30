@@ -1,6 +1,6 @@
 import pytest
 import time
-from .pages.main_page import MainPage
+from .pages.login_page import LoginPage
 from .pages.basket_page import BasketPage
 from .pages.product_page import ProductPage
 
@@ -105,5 +105,4 @@ def test_message_disappeared_after_adding_product_to_basket(browser):
     product_page.should_be_add_to_basket_button()
     product_page.solve_quiz_and_get_code()
     product_page.message_should_be_disappeared_after_adding_product_to_basket()
-
 
